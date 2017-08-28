@@ -1,44 +1,46 @@
-# First make sure to update pip:
-#     $ sudo pip install --upgrade pip
-#
-# Then you probably want to work in a virtualenv (optional):
-#     $ sudo pip install --upgrade virtualenv
-# Or if you prefer you can install virtualenv using your favorite packaging system. E.g., in Ubuntu:
-#     $ sudo apt-get update && sudo apt-get install virtualenv
-# Then:
-#     $ cd $my_work_dir
-#     $ virtualenv my_env
-#     $ . my_env/bin/activate
-#
-# Next, optionally uncomment the OpenAI gym lines (see below). If you do, make sure to install the dependencies first.
-#
-# Then install these requirements:
-#     $ pip install --upgrade -r requirements.txt
-# 
-# Finally, start jupyter:
-#     $ jupyter notebook
-#
-
+appnope==0.1.0
+bleach==2.0.0
+cycler==0.10.0
+decorator==4.1.2
+entrypoints==0.2.3
+html5lib==0.999999999
+ipykernel==4.6.1
+ipython==6.1.0
+ipython-genutils==0.2.0
+ipywidgets==7.0.0
+jedi==0.10.2
+Jinja2==2.9.6
+jsonschema==2.6.0
 jupyter==1.0.0
-matplotlib==1.5.3
-numexpr==2.6.1
-numpy==1.12.0
-pandas==0.19.1
-Pillow==3.4.2
-protobuf==3.0.0
-psutil==5.0.0
-scikit-learn==0.18.1
-scipy==0.18.1
-sympy==1.0
-tensorflow==1.0.0
-
-# Optional: OpenAI gym is only needed for the Reinforcement Learning chapter.
-# There are a few dependencies you need to install first, check out:
-# https://github.com/openai/gym#installing-everything
-#gym[all]==0.5.4
-# If you only want to install the Atari dependency, uncomment this line instead:
-#gym[atari]==0.5.4
-
-# Optional: these are useful Jupyter extensions, in particular to display
-# the table of contents.
-https://github.com/ipython-contrib/jupyter_contrib_nbextensions/tarball/master
+jupyter-client==5.1.0
+jupyter-console==5.2.0
+jupyter-core==4.3.0
+MarkupSafe==1.0
+matplotlib==2.0.2
+mistune==0.7.4
+nbconvert==5.2.1
+nbformat==4.4.0
+notebook==5.0.0
+numpy==1.13.1
+pandas==0.20.3
+pandocfilters==1.4.2
+pexpect==4.2.1
+pickleshare==0.7.4
+prompt-toolkit==1.0.15
+ptyprocess==0.5.2
+Pygments==2.2.0
+pyparsing==2.2.0
+python-dateutil==2.6.1
+pytz==2017.2
+pyzmq==16.0.2
+qtconsole==4.3.1
+scikit-learn==0.19.0
+simplegeneric==0.8.1
+six==1.10.0
+terminado==0.6
+testpath==0.3.1
+tornado==4.5.2
+traitlets==4.3.2
+wcwidth==0.1.7
+webencodings==0.5.1
+widgetsnbextension==3.0.2
